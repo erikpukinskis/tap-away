@@ -1,6 +1,6 @@
 {
   "name": "tap-away",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Do something when you tap away from an element",
   "dependencies": {
     "nrtv-library": "*",
