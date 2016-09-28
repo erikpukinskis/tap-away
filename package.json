@@ -6,6 +6,7 @@
     "nrtv-library": "*",
     "web-element": "*"
   },
+  "main": "tap-away.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/erikpukinskis/tap-away.git"
