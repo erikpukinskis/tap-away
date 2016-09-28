@@ -1,0 +1,13 @@
+{
+  "name": "tap-away",
+  "version": "0.0.0",
+  "description": "Do something when you tap away from an element",
+  "dependencies": {
+    "nrtv-library": "*",
+    "web-element": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikpukinskis/tap-away.git"
+  }
+}
