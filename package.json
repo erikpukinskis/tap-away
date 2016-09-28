@@ -4,7 +4,8 @@
   "description": "Do something when you tap away from an element",
   "dependencies": {
     "nrtv-library": "*",
-    "web-element": "*"
+    "web-element": "*",
+    "function-call": "*"
   },
   "main": "tap-away.js",
   "repository": {

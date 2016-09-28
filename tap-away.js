@@ -3,14 +3,14 @@ if (require) {
   var library = require("nrtv-library")(require)
   module.exports = library.export(
     "tap-away",
-    ["web-element"],
+    ["web-element", "function-call"],
     generator
   )
 } else {
   var tapAway = generator(element)
 }
 
-function generator(element) {
+function generator(element, functionCall) {
 
   // CATCH DEM TAPS
 
