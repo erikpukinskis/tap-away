@@ -33,7 +33,9 @@ function generator(element, functionCall) {
     )
 
     function tapOutScript(callback) {
-      return functionCall(tapOut).withArgs(functionCall.raw("event"), callback).evalable()
+      var singleton = typeof tapAway == "undefined" ? "library.get(\"tap-away\")" : tapAway
+
+      return functionCall(singleton).withArgs(functionCall.raw("event"), callback).evalable()
     }
 
     catcher.assignId()
